@@ -24,6 +24,7 @@ h1 {
   width: 100%;
   border-bottom: 1px solid DarkSlateGrey;
 }
+
 h1.title {
   margin: 0 0 1em;
   padding: 10px;
@@ -47,7 +48,13 @@ table#movies th {
 table#movies th, table#movies td {
   padding: 4px;
   text-align: left;
+  
 }
+
+
+
+
+
 #notice #warning {
   background: rosybrown;
   margin: 1em 0;
@@ -58,4 +65,9 @@ form label {
   line-height: 25px;
   font-weight: bold;
   color: maroon;
+}
+
+
+table#movies th.hilite {
+  background-color: yellow;
 }
